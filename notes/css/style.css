@@ -1,0 +1,58 @@
+h1 {
+  color: #ffffff
+}
+body{
+background-color: : blue;
+color: yellow;
+font- family cursive;
+}
+h2{
+background-color:rgb(255, 0, 0);
+/* 255 gives the red color */
+}
+a{
+/* can style my a tag by changing the color */
+/* this is for cusotmizng pages that have links in yourwebsite */
+
+color: green;
+text-decoration: none;
+font-size: 30px;
+}
+a:hover{
+/* you can also give it an action if user hover overs it */
+background-color: purple;
+}
+a:visited{
+/* when user clicks on the link it goes from blue to purple */
+color:blue;
+}
+
+li{
+/* makes all list elements to whichever color */
+color:orange;
+}
+ul li {
+list-style: georgian;
+}
+h3 em{
+ /*  find me an h3 tag that has an emphsis tag on it */
+ font-weight: bolder;
+}
+/* id start with a hashatag and are only meant to be used once in the document  */
+/* this name is basically s refrence... so here i made it css and use it in html */
+/*  creating this ID called name*/
+#name{
+  color: gray;
+  font-size:40px;
+}
+
+#narwhal{
+  color:cyan;
+}
+/* classes start with a period and can be used mulitple times */
+.bolder{
+  font-weight: bold;
+}
+.underline{
+  text-decoration: underline;
+}
