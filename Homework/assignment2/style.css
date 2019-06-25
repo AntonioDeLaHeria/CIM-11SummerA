@@ -1,0 +1,46 @@
+h1{
+  color: #FF0000
+}
+body{
+  background-color: white;
+  font-family: inherit;
+}
+h2{
+  font-style: italic;
+}
+a{
+  background-color: black;
+  font-family: none;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  background-color: purple;
+}
+a:visited{
+  color: green;
+}
+ol{
+  font-family: fantasy;
+}
+tr{
+  font-family: cursive;
+}
+
+#name{
+  color: grey;
+  font-size: 40px;
+}
+#underscore{
+  color: light green;
+}
+#Executive{
+  font-style: italic;
+}
+#remove {
+  text-transform: capitalize;
+}
+#last{
+  text-transform: lowercase;
+}

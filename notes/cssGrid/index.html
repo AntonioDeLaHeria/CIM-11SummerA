@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Grid</title>
+    <style>
+      header,footer{
+        width:700;
+        height:50px;
+        background-color:green;
+        matgin:0 auto;
+      }
+      main{
+        width:700px;
+        height: auto;
+        background-color: orange;
+        margin:0 auto; 
+      }
+
+      <!-- create my first section -->
+      #section1{
+        width:700px;
+        height:auto;
+        display:grid;
+        grid-template-row: 400px;
+        grid-template-columns:340px 340px;
+        gird-column-gap:20px;
+        background-color:white;
+      }
+      #Leapord{
+        width:350px;
+      }
+      #section2{
+        width:700px;
+        height:auto;
+        display:grid;
+        grid-template-rows:1fr;
+        grid-template-colums:1fr 1fr 1fr;
+        grid-coulmns-gap:
+      }
+      #section3{
+        width:700px;
+        height:auto;
+        display:grid;
+        grid-template-rows:1fr;
+        grid-template-colums:1fr 2fr;
+        grid-coulmns-gap:
+      }
+      #section4{
+        width:700px;
+        height:auto;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section id="section1">
+        <div> <img id="Leapord" src="https://search.creativecommons.org/photos/8f3fc21d-42fb-4242-b478-b01ffbcba9e4"alt="Leapord"></div>
+        <div>
+          <h2>My favorite animal</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+
+
+      <section id="section2">
+        <div>
+          <h1>Info about leapords</h1>
+
+        </div>
+
+        <div>
+        <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>ß
+
+        </div>
+
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+      </section>
+
+      <section id="section3">
+        <h1>More info</h1>
+        <p></p>
+
+      </section>
+    </main>
+    <footer></footer>
+
+  </body>
+</html>
+
+<!-- usually apply grid to a div---section -->
+<!-- any HTML inside will be affected -->
+<!-- grid templete allows how many rows you want in your grid and how many columns -->

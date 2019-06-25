@@ -1,0 +1,44 @@
+h1{
+  color: #ffffff;
+  font-family: 'Merriweather',serif;
+  font-weight: 900;
+}
+body{
+  background-color: blue;
+  color: yellow;
+  font-family: cursive;
+}
+h3{
+  background-color: rgba(255, 0, 0, 0);
+}
+a{
+  color:pink;
+  text-decoration: none;
+  font-size: 30px;
+}
+a: hover{
+  background-color: purple;
+
+}
+a:visited{
+  color: green;
+}
+li{
+  color: green;
+}
+ul li{
+  list-style: none;
+}
+h3 em{
+  font-weight:lighter;
+  color: orange;
+
+}
+#name{
+  color: gray;
+  font-size: 40px;
+  font-family: 'Permanent Marker',cursive;
+}
+#narwhal{
+  color:cyan; 
+}

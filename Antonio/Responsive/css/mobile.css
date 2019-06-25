@@ -1,0 +1,76 @@
+@import "desktop.css";
+
+*{
+  margin: 0;
+  padding:0;
+}
+  main{
+    width: 450px;
+    height: inherit;
+    background-color: grey;
+    margin:0 auto;
+  }
+  header{
+    background-color: grey;
+    margin: 0 auto;
+  }
+  footer{
+    width: 960px;
+    background-color: black;
+
+  }
+  #banner{
+    display: none;
+  }
+  .info{
+    width: 100%;
+  }
+  .info h2{
+    padding: 30px 30px 20px;
+    font-family: arial;
+    font-size: 20px;
+    line-height: 44px;
+  }
+  .info p{
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+  .link{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .link ul{
+    line-height: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
+  }
+  .format{
+    width: 30%;
+    padding-left: 40px;
+  }
+  #section3{
+    padding-top: 30px;
+
+  }
+  #section3 p{
+    line-height: 20px;
+    padding: 20px;
+  }
+
+
+  .wrapper{
+    width: 450px;
+    height: auto;
+    display: block;
+
+  }
+
+  #section4{
+    width: 450px;
+    height: auto;
+    display: block;
+
+  }

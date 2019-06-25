@@ -1,0 +1,53 @@
+h1{
+color: green;
+}
+body{
+  background-color: yellow;
+  color: pink;
+  font-family: fantasy;
+}
+h2{
+  background-color: yellow;
+}
+
+/* use a tag to customize links in my doc */
+a {
+  color: green;
+  text-decoration: none;
+  font-size: 40px;
+}
+a:hover{
+  background-color purple:
+}
+a: visited{
+  color: green;
+}
+a:link{
+  color: green;
+}
+#name{
+  color: grey;
+  font-size: 40px;
+}
+#underscore{
+  color: light green;
+}
+#Executive{
+  font-style: italic;
+}
+#remove {
+  text-transform: capitalize;
+}
+#last{
+  text-transform: lowercase;
+}
+p{
+  color: red;
+}
+grid-template-rows: auto;
+p.work{
+  background:yellow:
+}
+ul{
+  list-style: initial;
+}

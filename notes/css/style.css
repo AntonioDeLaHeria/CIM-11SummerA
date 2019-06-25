@@ -24,7 +24,7 @@ background-color: purple;
 }
 a:visited{
 /* when user clicks on the link it goes from blue to purple */
-color:blue;
+color:green;
 }
 
 li{
