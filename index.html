@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Final Project</title>
+    <style media="screen">
+    </style>
+
+    <link rel="stylesheet" media="only screen and (min-width: 700px)" href="css/desktop.css">
+    <link rel="stylesheet" media="only screen and (max-width: 700px)" href="css/mobile.css">
+
+
+  </head>
+  <body>
+    <header></header>
+    <nav>
+      <ul>
+        <li><a href="#section1">Company</a></li>
+        <li><a href="#section2">Farms</a></li>
+        <li><a href="#section3">Produce</a></li>
+        <li><a href="#section4">Health</a></li>
+        <li><a href="#section5">Team</a></li>
+
+      </ul>
+    </nav>
+      <main>
+
+      <h1 id="center">Harbor Fresh</h1>
+      <img id="banner" src="images/HR.png" alt="Company Photo">
+      <br>
+      <br>
+      <br>
+
+      <section id="section1">
+      <div><img src="images/about.jpg" alt="about us"></div>
+      <div>
+        <article class="info">
+      <h2>About Us</h2>
+      <p id="cen">Harbor Fresh is a grower, shipper, and packer of fresh fruits and vegetables based in Miami, Florida. Alpine specializes in 6 major commodties that include
+        <ul>
+          <li>asparagus</li>
+          <li>blueberries</li>
+          <li>raspberries</li>
+          <li>blackberries</li>
+          <li>french beans</li>
+        </ul>
+       Our produce is grown domestically and abroad.</p>
+       <h2>Mission Statement</h2>
+       <p> Harbor Fresh mission is to bring fresh agricultural products from our farms to the world, in the most efficient and cost effective way possible, while maintaining the highest quality standards in the industry. We will foster an environment where all of our actions worldwide are conducted in a socially responsible way. The measurement of our success will be determined by the growth of our employees not only within the company but within themselves.</p>
+    </article>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+
+  <h2 id="part"> Harbor Fresh's farms</h2>
+  <div id="section2">
+    <img id="finca" src="images/finca.jpg" alt="finca">
+    <h4><em>Peruvian</em></h4>
+    <p>Harbor Fresh grows asparagus in 2 regions of Peru, Trujillo and Ica. Harbor Fresh Peruvian asparagus is grown in these regions year-round producing around BLANK tons annually.</p>
+  </div>
+
+  <div id="section2">
+  <img id="mexico" src="images/mexico.jpg" alt="mexican farm">
+  <h4>Mexico</h4>
+  <p><strong>Harbor Fresh</strong> grows asparagus in 3 regions of Mexico, Caborca, Obregon, and Guanajuanto. Alpine Fresh asparagus is grown in those regions year-round producing around BLANK tons annually.</p>
+</div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+    <section id="section3">
+    <h2 id="slide">Produce</h2>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/blue.jpg" style="width:40%">
+    <div class="text">Blueberries</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/aspa.jpg" style="width:40%">
+    <div class="text">Asparagus</div>
+  </div>
+
+  <div class="mySlides fade">
+   <div class="numbertext"></div>
+   <img src="images/ras.jpg" style="width:40%">
+   <div class="text">Raspberries</div>
+ </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext">Blackberries</div>
+    <img src="images/black.jpg" style="width:40%">
+    <div class="text"> </div>
+  </div>
+
+  <div class="mySlides fade">
+     <div class="numbertext"></div>
+     <img src="images/black.jpg" style="width:40%">
+     <div class="text"> Blackberries</div>
+   </div>
+
+   <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/french.jpg" style="width:40%">
+      <div class="text">French Beans</div>
+    </div>
+  </section3>
+
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+
+</div>
+
+
+  <script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+  </script>
+  <br>
+  <br>
+  <br>
+
+
+  <section id="section4">
+
+  <h3 id="health">Health & Nutrition</h3>
+  <div class="wrapper">
+    <ul>
+
+      <li> <a href="https://www.healthline.com/nutrition/asparagus-benefits">Low Calories</a></li>
+
+      <li><a href="https://www.webmd.com/food-recipes/features/blueberries-nutritious-things-come-in-small-packages_">Cardiovascular Health</a></li>
+
+      <li><a href="https://www.helpguide.org/articles/healthy-eating/organic-foods.htm">Organics</a></li>
+    </ul>
+      <br>
+      <br>
+      <br>
+
+    </section>
+    <br>
+    <br>
+    <br>
+<section id="section5">
+      <h2> Meet the Team </h2>
+      <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/Antopicture.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Antonio De La Heria</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Antonio De La Heria has been in the Agriculture business for 25 years and is the CEO and founder of Harbor Fresh.</p>
+        <p>antonio@me.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/ross.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">CFO</p>
+        <p>Mike Ross has worked for various multinational Agriculture comapnies.</p>
+        <p>mike@me.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/lloyd.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Steve Young</h2>
+        <p class="title">Commodity Manager</p>
+        <p>Commodity manager of all six products Harbor grows and distrbutes</p>
+        <p>steve@me.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+  </main>
+  <footer></footer>
+  </body>
+</html>

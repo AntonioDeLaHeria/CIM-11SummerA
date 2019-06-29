@@ -1,0 +1,282 @@
+main{
+  background-color: grey;
+  padding: 20px;
+  height: auto;
+}
+header{
+  width: 960px;
+  background-color: green;
+}
+footer{
+  background-color: green;
+
+}
+nav{
+  background-color: white;
+  width: 300px;
+  margin: 0 auto;
+}
+nav ul{
+  background-color: white;
+}
+nav ul li{
+  list-style: none;
+  /* THis kinda centers it makes it go one by one across */
+  display: inline-block;
+  margin-right: 29px;
+  margin-left: -23px;
+  font-size: 13px;
+}
+nav ul li a{
+  color: 00008B;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: grey;
+}
+
+#center{
+  margin: auto;
+  width: 15%;
+  color: #196F3D;
+  padding-bottom: 30px;
+
+}
+#banner{
+  /* This is how to center an image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+#section1{
+  margin: 0 auto;
+  width: 700px;
+  height: auto;
+  display: grid;
+  grid-auto-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  background-color: white;
+  width: 100%;
+}
+.info{
+  width: 90%;
+  padding-top: -50px
+  padding-left: 50px;
+  display: grid;
+}
+.info h2{
+  font-family: cursive;
+  padding-left: 20px;
+  color: #003399;
+}
+.info p{
+  font-style: normal;
+  font-weight: 100;
+  line-height: 20px;
+  padding-top: -15px;
+}
+#fresh{
+  padding-top: px;
+}
+#cen{
+  padding-top:-29px;
+}
+.info ul{
+  line-height: 20px;
+  color: green;
+}
+#section2{
+  width: 300px;
+  height: auto;
+  background-color: white;
+  margin: 0 auto;
+  margin-top:0px;
+  margin-bottom: 50px;
+  margin-left: 175px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: inline-block;
+  }
+#part{
+  padding-bottom: 30px;
+  color: #FFFF66;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+#finca{
+  width: 250px;
+  display: block;
+  border-style: solid;
+  border-top-width: 5px;
+  border-width: 5px 15px 15px 20px;
+
+}
+#mexico{
+  width: 250px;
+  display: inline;
+  border-style: solid;
+  border-top-width: 15px;
+  border-width: 30px 15px 15px 20px;
+}
+#slide{
+  margin: 30px;
+  text-align: left;
+  text-decoration: underline;
+  color: #CEF193;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding:28px 28px;
+  position: absolute;
+  bottom: 82px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#health{
+  text-align: center;
+  color: #86B041;
+  font-size: 25px;
+}
+.wrapper a{
+  color: #274066;
+}
+.wrapper a:hover{
+  background-color: green;
+}
+.wrapper a:visited{
+  color: purple;
+
+}
+.wrapper ul li {
+  display: inline-block;
+  margin-right: 39px;
+  margin-left: -20px;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left: 200px;
+
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 18px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  padding: 0 16px;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
